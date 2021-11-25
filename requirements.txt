@@ -1,6 +1,11 @@
-paddlepaddle
 paddlehub
 visualdl
 paddleseg
-paddlenlp
 paddleocr
+paddlepaddle==2.2.0
+paddlenlp==2.1.1
+pypinyin
+python-Levenshtein
+cn2an
+pandas
+tqdm
