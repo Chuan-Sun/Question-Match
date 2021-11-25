@@ -1,0 +1,2 @@
+python predict.py --model ErnieGram --output_info query logit probability --input_file ../data/data118485/test.txt --result_file ../user_data/test3.tsv --params_dir ../data/checkpoints3 --params_number last
+python postprocess.py --input_path ../user_data/test3.tsv --input_cols query logit probability --output_path ../prediction_result/ccf_qianyan_qm_result_B.csv
